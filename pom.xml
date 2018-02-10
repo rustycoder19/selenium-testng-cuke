@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.testauto</groupId>
-    <artifactId>selenium-testng-cucumber</artifactId>
+    <artifactId>selenium-testng-cuke</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -94,7 +94,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>SeleniumTestngCucumber</projectName>
+                            <projectName>selenium-testng-cuke</projectName>
                             <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
                             <cucumberOutput>target/cucumber-reports/CucumberTestReport.json</cucumberOutput>
                             <buildNumber>1</buildNumber>
